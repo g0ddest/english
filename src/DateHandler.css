@@ -1,0 +1,23 @@
+header div{
+    display: inline;
+    padding: 5px 15px;
+    margin: 0 15px;
+}
+
+header div.right{
+    float:right;
+    cursor: pointer;
+}
+
+header div.left{
+    float:left;
+    cursor: pointer;
+}
+
+header div.now{
+    background-color: #007DFF;
+    color: white;
+    margin:0 auto !important;
+    display:inline-block;
+    border-radius: 15px;
+}

@@ -11,7 +11,7 @@ class Lectures extends Component{
         });
 
         return (
-            <div>
+            <div class="Lectures-Wrap">
                 {lectures}
             </div>
         )

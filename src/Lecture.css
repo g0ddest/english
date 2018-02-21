@@ -1,0 +1,15 @@
+.Lectures-Wrap{
+    text-align: center;
+}
+
+.Lecture{
+    width: 70%;
+    display: inline-block;
+}
+
+.Lecture h2{
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    text-align: left;
+}

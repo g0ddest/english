@@ -78,9 +78,9 @@ class App extends Component {
         return (
             <div className="App">
                 <header className="header">
-                    <DateHandler click={this.set.bind(this)} date={this.state.props.prev_date}/>
+                    <DateHandler position="left" click={this.set.bind(this)} date={this.state.props.prev_date}/>
                     <DateHandler now={true} date={this.state.props.selected_date} />
-                    <DateHandler click={this.set.bind(this)} date={this.state.props.next_date}/>
+                    <DateHandler position="right" click={this.set.bind(this)} date={this.state.props.next_date}/>
                 </header>
                 <div className="details">
                     <Lectures data={this.state.lectures}/>

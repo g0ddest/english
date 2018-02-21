@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './DateHandler.css'
 
 class DateHandler extends Component{
 
@@ -20,11 +21,17 @@ class DateHandler extends Component{
             return null;
         if(this.props.now)
             return (
-                <div>{this.decorate(this.props.date)}</div>
+                <div className="now">{this.decorate(this.props.date)}</div>
             );
         else
             return (
-                <div onClick={this.handleClick.bind(this)}>{this.decorate(this.props.date)}</div>
+                <div className={this.props.position} onClick={this.handleClick.bind(this)}>
+                    {
+                        (this.props.position === "left" ? "← " : "") +
+                        this.decorate(this.props.date) +
+                        (this.props.position === "right" ? " →" : "")
+                    }
+                </div>
             );
     }
 }

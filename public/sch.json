@@ -1,0 +1,111 @@
+[
+  {
+    "date": "2018-02-20",
+    "lessons":[
+      {
+        "name": "Практическая фонетика английского языка",
+        "type": "lab",
+        "teacher": {
+          "first_name": "Л.",
+          "last_name": "Косташ",
+          "patronymic_name": "Л."
+        },
+        "number": [6,7],
+        "task": []
+      }
+    ]
+  },
+  {
+    "date": "2018-02-21",
+    "lessons":[
+      {
+        "name": "Дискурс",
+        "type": "lab",
+        "teacher": {
+          "first_name": "Анна",
+          "last_name": "Саврацкая",
+          "patronymic_name": "Сергеевна",
+          "photo": "files/photo/sav.jpg"
+        },
+        "number": [5, 6],
+        "task":[
+          {
+            "text": "Распечатать Unit 1, Unit 2",
+            "files": [
+              {
+                "type": "pdf",
+                "name": "New Headway Elementary Workbook",
+                "path": "files/178_2- New Headway Elementary.Workbook with Key. 4th ed_2012 -96p.pdf"
+              },
+              {
+                "type": "pdf",
+                "name": "New Headway Elementary Student's book",
+                "path": "files/091_1- New Headway. Elementary. Student's book. 4th Ed_2011 -160p.pdf"
+              }
+            ]
+          },
+          {
+            "text": "Сделать Unit 1",
+            "files": [
+              {
+                "type": "pdf",
+                "name": "New Headway Elementary Workbook",
+                "path": "files/178_2- New Headway Elementary.Workbook with Key. 4th ed_2012 -96p.pdf"
+              }
+            ],
+            "audio": [
+              "files/02.mp3",
+              "files/03.mp3",
+              "files/04.mp3",
+              "files/05.mp3",
+              "files/06.mp3"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Практическая грамматика английского языка",
+        "type": "lab",
+        "teacher": {
+          "first_name": "Е.",
+          "last_name": "Почтарь",
+          "patronymic_name": "И."
+        },
+        "number": [7],
+        "task": []
+      }
+    ]
+  },
+  {
+    "date": "2018-02-23",
+    "lessons":[
+      {
+        "name": "Введение в языкознание",
+        "type": "lecture",
+        "teacher": {
+          "first_name": "Жанна",
+          "last_name": "Беляева",
+          "patronymic_name": "Д."
+        },
+        "number": [6,7],
+        "task": []
+      }
+    ]
+  },
+  {
+    "date": "2018-02-24",
+    "lessons":[
+      {
+        "name": "Практическая фонетика английского языка",
+        "type": "lab",
+        "teacher": {
+          "first_name": "Л.",
+          "last_name": "Косташ",
+          "patronymic_name": "Л."
+        },
+        "number": [6,7],
+        "task": []
+      }
+    ]
+  }
+]

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './Lecture.css';
+import Tasks from "./Tasks";
+import Person from "./Person";
 
 class Lecture extends Component{
 
@@ -14,8 +16,10 @@ class Lecture extends Component{
     render(){
         let data = this.props.data;
         return (
-            <div class="Lecture">
+            <div className="Lecture">
                 <h2><span>{this.lecture_num()}</span>{data.name}</h2>
+                <Person data={data.teacher}/>
+                <Tasks data={data.task}/>
             </div>
         );
     }

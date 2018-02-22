@@ -8,7 +8,6 @@ class DateHandler extends Component{
     };
 
     decorate(date){
-            console.log(date);
             return new Date(Date.parse(date)).toLocaleDateString('ru-RU', {
                 day : 'numeric',
                 month: 'long',
@@ -18,7 +17,9 @@ class DateHandler extends Component{
 
     render() {
         if(!this.props.date)
-            return null;
+            return (
+                <div className={this.props.position}> </div>
+            );
         if(this.props.now)
             return (
                 <div className="now">{this.decorate(this.props.date)}</div>

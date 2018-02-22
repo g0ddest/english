@@ -26,11 +26,9 @@ class DateHandler extends Component{
         else
             return (
                 <div className={this.props.position} onClick={this.handleClick.bind(this)}>
-                    {
-                        (this.props.position === "left" ? "← " : "") +
-                        this.decorate(this.props.date) +
-                        (this.props.position === "right" ? " →" : "")
-                    }
+                    {this.props.position === "left" ? "← " : ""}
+                    <span>{this.decorate(this.props.date)}</span>
+                    {this.props.position === "right" ? " →" : ""}
                 </div>
             );
     }

@@ -1,0 +1,8 @@
+.File{
+
+}
+
+.File .type{
+    float: left;
+    text-transform: uppercase;
+}

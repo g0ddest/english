@@ -8,9 +8,19 @@
     text-align: left;
 }
 
+@media screen and (max-width: 640px) {
+    .Lecture{
+        width: 90%;
+    }
+}
+
 .Lecture h2{
     font-weight: 600;
     font-family: 'Playfair Display', serif;
     font-size: 35px;
     text-align: left;
+}
+
+.Lecture .room{
+    font-style: italic;
 }

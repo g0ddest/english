@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import Files from './Files'
 
 class Task extends Component{
     render() {
         return (
-            <div>— {this.props.data.text}</div>
+            <div>
+                <div>— {this.props.data.text}</div>
+                <Files files={this.props.data.files}/>
+            </div>
         );
     }
 }

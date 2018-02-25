@@ -39,7 +39,7 @@ class App extends Component {
         });
 
         let i = 0;
-        while (Date.parse(dates[i] + " 19:30") - new Date().getTime() <= 0){
+        while (new Date(dates[i].split("-")[0], dates[i].split("-")[1] - 1, dates[i].split("-")[2], "19", "30").getTime() < new Date().getTime() && i < dates.length - 1){
             i++;
         }
 

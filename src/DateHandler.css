@@ -10,6 +10,12 @@ header div{
     }
 }
 
+@media screen and (max-width: 350px) {
+    header div.right, header div.left{
+        padding: 5px 10px;
+    }
+}
+
 header div.right{
     float:right;
     cursor: pointer;

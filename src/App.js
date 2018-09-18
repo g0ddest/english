@@ -23,7 +23,7 @@ class App extends Component {
 
         let put_data = this.put_data;
         let self = this;
-        fetch("sch.json")
+        fetch("/get/")
             .then(function (response) {
                 return response.json();
             })

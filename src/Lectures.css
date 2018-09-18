@@ -1,0 +1,32 @@
+.subgroup {
+    white-space: nowrap;
+    width: 40px;
+    height: 40px;
+    text-align: left;
+    margin: auto;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+
+.first{
+  background: #7ad1e4;
+}
+
+.second{
+  background: #ffc876;
+}
+
+.subgroup div{
+    display: inline-block;
+    font-size: 67px;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    margin-top: -25px;
+    padding-left: 13px;
+}
+
+@media screen and (max-width: 640px) {
+    .subgroup span{
+        display: none;
+    }
+}

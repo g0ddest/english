@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Files from './Files'
+import Videos from './Videos'
 
 class Task extends Component{
     render() {
@@ -7,6 +8,7 @@ class Task extends Component{
             <div>
                 <div>— {this.props.data.text}</div>
                 <Files files={this.props.data.files}/>
+                <Videos videos={this.props.data.videos} />
             </div>
         );
     }

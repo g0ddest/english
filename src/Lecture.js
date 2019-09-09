@@ -15,7 +15,7 @@ class Lecture extends Component{
 
     room(){
         if(this.props.data.room && this.props.data.room > 0)
-            return ( <span><span className="room">{this.props.data.room} каб. {data.building ? data.building : ""}</span>, </span> );
+            return ( <span><span className="room">{this.props.data.room} каб.</span>, </span> );
         return "";
     }
 
@@ -24,8 +24,7 @@ class Lecture extends Component{
         return (
             <div className="Lecture">
                 <h2><span>{this.lecture_num()}</span>{data.name}</h2>
-                <p>{this.room()} {data.building ? data.building : ""}<Person data={data.teacher}/></p>
-                <p>{this.room()}<Person data={data.teacher}/></p>
+                <p>{this.room()}{data.building ? `${data.building}` : ""} <Person data={data.teacher}/></p>
                 <div/>
                 <Tasks data={data.task}/>
             </div>

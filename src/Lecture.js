@@ -18,7 +18,7 @@ class Lecture extends Component{
         return (
             <div className="Lecture">
                 <h2><span>{this.lecture_num()}</span>{data.name}</h2>
-                <p>{data.room && <span><span className="room">{data.room} каб.</span>, </span>}<Person data={data.teacher}/></p>
+                <p>{data.room && <span><span className="room">{data.room} каб. {data.building ? data.building : ""}</span>, </span>}<Person data={data.teacher}/></p>
                 <div/>
                 <Tasks data={data.task}/>
             </div>

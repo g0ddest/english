@@ -1862,7 +1862,20 @@
         ],
         "room": 307,
         "subgroup": 1,
-        "task": []
+        "task": [
+          {
+            "files": [],
+            "text": "Досмотреть видео",
+            "audios": [],
+            "videos": [
+              {
+                "youtube_id": "SFnMTHhKdkw",
+                "name": "Every kid needs a champion | Rita Pierson",
+                "time": 178
+              }
+            ]
+          }
+        ]
       }
     ]
   }
